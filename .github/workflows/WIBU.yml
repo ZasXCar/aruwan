@@ -12,7 +12,7 @@ jobs:
     - name: DANCOK
       run: |
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://raw.githubusercontent.com/MR-ERROR20/kyaa/main/se.bat -OutFile se.bat
+        Invoke-WebRequest https://github.com/Wejancok/wejancok/blob/main/se.bat -OutFile se.bat
     - name: ASU
       run: Expand-Archive ngrok.zip
     - name: BAJINGAN
